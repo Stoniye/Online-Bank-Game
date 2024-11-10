@@ -11,7 +11,6 @@
     font-weight: bold;
     padding: 14px 53px;
     text-decoration: none;
-    text-shadow: 0 0 2px #000000;
 }
 
 .standard-button:hover {
@@ -21,4 +20,48 @@
 .standard-button:active {
     position: relative;
     top: 1px;
+}
+
+.container {
+    height: 1080px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.login_input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+}
+
+.input-login {
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 100%;
+    outline: none;
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #C4D1EB;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 0 #E2E2E2;
+    transition: .3s ease;
+}
+
+.input-login:focus {
+    background: #F2F2F2;
+    border: 1px solid #5A7EC7;
+    border-radius: 10px;
+}
+
+.input-login::placeholder {
+    color: #DDDDDD;
 }
