@@ -1,0 +1,67 @@
+.standard-button {
+    box-shadow: 3px 4px 0 0 #000000;
+    background: #85e7ff linear-gradient(to bottom, #85e7ff 5%, #389cb5 100%);
+    border-radius: 42px;
+    border: 3px solid #16a1ab;
+    display: inline-block;
+    cursor: pointer;
+    color: #1f454f;
+    font-family: Arial, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 53px;
+    text-decoration: none;
+}
+
+.standard-button:hover {
+    background: #389cb5 linear-gradient(to bottom, #389cb5 5%, #85e7ff 100%);
+}
+
+.standard-button:active {
+    position: relative;
+    top: 1px;
+}
+
+.container {
+    height: 1080px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.login_input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+}
+
+.input-login {
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 100%;
+    outline: none;
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #C4D1EB;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 0 #E2E2E2;
+    transition: .3s ease;
+}
+
+.input-login:focus {
+    background: #F2F2F2;
+    border: 1px solid #5A7EC7;
+    border-radius: 10px;
+}
+
+.input-login::placeholder {
+    color: #DDDDDD;
+}
